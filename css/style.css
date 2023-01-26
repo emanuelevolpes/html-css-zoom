@@ -12,10 +12,27 @@ Reset
 
 /*
 ----------
-Common
+Typo
 ----------
 */
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.fa-microphone{
+    color: white;
+    font-size: 25px;
+}
+
+.fa-video{
+    color: white;
+    font-size: 25px;
+}
+
+.fa-chevoron-up{
+    color: white;
+}
 
 /*
 ----------
@@ -100,21 +117,60 @@ Footer
     justify-content: space-between;
 }
 
-.box-footer-left{
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
+.widget-bar{
+    position: relative;
 }
 
-.content1{
-    padding-left: 10px;
-    text-align: center;
-    position: relative;
-    font-size: 20px;
+.box-footer-left{
+    position: absolute;
+    top: 10px;
+    left: 50px;
     color: white;
 }
 
-.footer-left{
-    display: flex;
-    justify-content: center;
+.left-descriptions{
+    position: absolute;
+    top: 40px;
+    left: 45px;
+    color: white;
+}
+
+.footer-center-icons > span{
+    padding: 15px;
+}
+
+.footer-center-descriptions > span{
+    padding: 8px;
+}
+
+.box-footer-left > span{
+    padding: 2px;
+}
+
+.left-descriptions > span{
+    padding: 2px;
+}
+
+.footer-center-icons{
+    position: absolute;
+    top: 10px;
+    left: 500px;
+    color: white;
+    font-size: 25px;
+}
+
+.footer-center-descriptions{
+    position: absolute;
+    top: 40px;
+    left: 490px;
+    color: white;
+    font-size: 10px;
+}
+
+.footer-right{
+    position: absolute;
+    right: 0;
+    background-color: #4a4a4a;
+    color: red;
+    padding: 33px 23px;
 }
