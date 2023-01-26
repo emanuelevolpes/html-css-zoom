@@ -9,3 +9,45 @@ Reset
     padding: 0;
     box-sizing: border-box;
 }
+
+/*
+----------
+Common
+----------
+*/
+
+
+/*
+----------
+Header
+----------
+*/
+
+.view{
+    height: 35px;
+    background-color: black;
+    text-align: right;
+    color: white;
+}
+
+/*
+----------
+Main
+----------
+*/
+
+.container{
+    height: calc(100vh - 120px);
+    background-color: green;
+}
+
+/*
+----------
+Footer
+----------
+*/
+
+.widget-bar{
+    height: 85px;
+    background-color: gray;
+}
