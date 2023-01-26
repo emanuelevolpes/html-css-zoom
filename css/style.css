@@ -30,6 +30,10 @@ Header
     color: white;
 }
 
+.speacker-view{
+
+}
+
 /*
 ----------
 Main
@@ -38,7 +42,29 @@ Main
 
 .container{
     height: calc(100vh - 120px);
-    background-color: green;
+    background-color: black;
+    padding: 90px;
+    overflow: auto;
+}
+
+.container-user{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.user{
+    position: relative;
+}
+
+.mute{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    color:white;
+    background: rgba(105, 105, 105, 0.5);
 }
 
 /*
