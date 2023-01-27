@@ -34,6 +34,10 @@ body{
     color: white;
 }
 
+.fa-solid.fa-share-from-square{
+    color: #4ccb00;
+}
+
 /*
 ----------
 Header
@@ -131,16 +135,22 @@ Footer
 .left-descriptions{
     position: absolute;
     top: 40px;
-    left: 45px;
     color: white;
+    font-size: 10px;
+}
+
+.left-descriptions > .mute{
+    position: absolute;
+    left: 40px;
+}
+
+.left-descriptions > .stop{
+    position: absolute;
+    left: 100px;
 }
 
 .footer-center-icons > span{
     padding: 15px;
-}
-
-.footer-center-descriptions > span{
-    padding: 8px;
 }
 
 .box-footer-left > span{
@@ -162,9 +172,48 @@ Footer
 .footer-center-descriptions{
     position: absolute;
     top: 40px;
-    left: 490px;
     color: white;
     font-size: 10px;
+}
+
+.footer-center-descriptions > .invite{
+    position: absolute;
+    left: 515px;
+}
+
+.footer-center-descriptions > .manage{
+    position: absolute;
+    left: 580px;
+}
+
+.footer-center-descriptions > .polling{
+    position: absolute;
+    left: 650px;
+}
+
+.footer-center-descriptions > .share{
+    position: absolute;
+    left: 710px;
+}
+
+.footer-center-descriptions > .chat{
+    position: absolute;
+    left: 775px;
+}
+
+.footer-center-descriptions > .record{
+    position: absolute;
+    left: 835px;
+}
+
+.footer-center-descriptions > .rooms{
+    position: absolute;
+    left: 885px;
+}
+
+.footer-center-descriptions > .more{
+    position: absolute;
+    left: 940px;
 }
 
 .footer-right{
